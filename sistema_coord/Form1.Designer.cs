@@ -130,7 +130,7 @@
             this.btnProveedores.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnProveedores.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnProveedores.ForeColor = System.Drawing.SystemColors.Window;
-            this.btnProveedores.Location = new System.Drawing.Point(407, 0);
+            this.btnProveedores.Location = new System.Drawing.Point(404, 0);
             this.btnProveedores.Name = "btnProveedores";
             this.btnProveedores.Size = new System.Drawing.Size(105, 50);
             this.btnProveedores.TabIndex = 9;
