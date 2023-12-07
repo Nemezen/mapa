@@ -28,108 +28,184 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.gMapControl1 = new GMap.NET.WindowsForms.GMapControl();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtID = new System.Windows.Forms.TextBox();
-            this.txtDireccion = new System.Windows.Forms.TextBox();
-            this.btnBuscar = new System.Windows.Forms.Button();
-            this.guardarCoord = new System.Windows.Forms.Button();
+            this.menuHorizontal = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.btnEmpleados = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.btnProveedores = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.btnCliente = new System.Windows.Forms.Button();
+            this.panelContenedor = new System.Windows.Forms.Panel();
+            this.menuHorizontal.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // gMapControl1
+            // menuHorizontal
             // 
-            this.gMapControl1.Bearing = 0F;
-            this.gMapControl1.CanDragMap = true;
-            this.gMapControl1.EmptyTileColor = System.Drawing.Color.Navy;
-            this.gMapControl1.GrayScaleMode = false;
-            this.gMapControl1.HelperLineOption = GMap.NET.WindowsForms.HelperLineOptions.DontShow;
-            this.gMapControl1.LevelsKeepInMemmory = 5;
-            this.gMapControl1.Location = new System.Drawing.Point(277, 26);
-            this.gMapControl1.MarkersEnabled = true;
-            this.gMapControl1.MaxZoom = 2;
-            this.gMapControl1.MinZoom = 2;
-            this.gMapControl1.MouseWheelZoomEnabled = true;
-            this.gMapControl1.MouseWheelZoomType = GMap.NET.MouseWheelZoomType.MousePositionAndCenter;
-            this.gMapControl1.Name = "gMapControl1";
-            this.gMapControl1.NegativeMode = false;
-            this.gMapControl1.PolygonsEnabled = true;
-            this.gMapControl1.RetryLoadTile = 0;
-            this.gMapControl1.RoutesEnabled = true;
-            this.gMapControl1.ScaleMode = GMap.NET.WindowsForms.ScaleModes.Integer;
-            this.gMapControl1.SelectedAreaFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(65)))), ((int)(((byte)(105)))), ((int)(((byte)(225)))));
-            this.gMapControl1.ShowTileGridLines = false;
-            this.gMapControl1.Size = new System.Drawing.Size(671, 667);
-            this.gMapControl1.TabIndex = 0;
-            this.gMapControl1.Zoom = 0D;
-            this.gMapControl1.Load += new System.EventHandler(this.gMapControl1_Load);
+            this.menuHorizontal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(90)))));
+            this.menuHorizontal.Controls.Add(this.panel5);
+            this.menuHorizontal.Controls.Add(this.panel6);
+            this.menuHorizontal.Controls.Add(this.panel3);
+            this.menuHorizontal.Controls.Add(this.btnEmpleados);
+            this.menuHorizontal.Controls.Add(this.panel2);
+            this.menuHorizontal.Controls.Add(this.panel4);
+            this.menuHorizontal.Controls.Add(this.btnProveedores);
+            this.menuHorizontal.Controls.Add(this.panel1);
+            this.menuHorizontal.Controls.Add(this.btnCliente);
+            this.menuHorizontal.Dock = System.Windows.Forms.DockStyle.Top;
+            this.menuHorizontal.Location = new System.Drawing.Point(0, 0);
+            this.menuHorizontal.Name = "menuHorizontal";
+            this.menuHorizontal.Size = new System.Drawing.Size(976, 50);
+            this.menuHorizontal.TabIndex = 6;
             // 
-            // label1
+            // panel5
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 114);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(21, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "ID:";
+            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            this.panel5.Location = new System.Drawing.Point(550, 0);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(88, 7);
+            this.panel5.TabIndex = 11;
             // 
-            // txtID
+            // panel6
             // 
-            this.txtID.Location = new System.Drawing.Point(39, 111);
-            this.txtID.Name = "txtID";
-            this.txtID.Size = new System.Drawing.Size(127, 20);
-            this.txtID.TabIndex = 2;
+            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            this.panel6.Location = new System.Drawing.Point(550, 45);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(88, 11);
+            this.panel6.TabIndex = 10;
             // 
-            // txtDireccion
+            // panel3
             // 
-            this.txtDireccion.Location = new System.Drawing.Point(39, 451);
-            this.txtDireccion.Name = "txtDireccion";
-            this.txtDireccion.Size = new System.Drawing.Size(150, 20);
-            this.txtDireccion.TabIndex = 3;
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            this.panel3.Location = new System.Drawing.Point(407, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(105, 7);
+            this.panel3.TabIndex = 11;
             // 
-            // btnBuscar
+            // btnEmpleados
             // 
-            this.btnBuscar.Location = new System.Drawing.Point(63, 161);
-            this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(75, 23);
-            this.btnBuscar.TabIndex = 4;
-            this.btnBuscar.Text = "Buscar";
-            this.btnBuscar.UseVisualStyleBackColor = true;
-            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click_1);
+            this.btnEmpleados.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(90)))));
+            this.btnEmpleados.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnEmpleados.FlatAppearance.BorderSize = 0;
+            this.btnEmpleados.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            this.btnEmpleados.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            this.btnEmpleados.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEmpleados.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEmpleados.ForeColor = System.Drawing.SystemColors.Window;
+            this.btnEmpleados.Location = new System.Drawing.Point(550, 0);
+            this.btnEmpleados.Name = "btnEmpleados";
+            this.btnEmpleados.Size = new System.Drawing.Size(88, 50);
+            this.btnEmpleados.TabIndex = 9;
+            this.btnEmpleados.Text = "Empleados";
+            this.btnEmpleados.UseVisualStyleBackColor = false;
+            this.btnEmpleados.Click += new System.EventHandler(this.btnEmpleados_Click);
             // 
-            // guardarCoord
+            // panel2
             // 
-            this.guardarCoord.Location = new System.Drawing.Point(63, 228);
-            this.guardarCoord.Name = "guardarCoord";
-            this.guardarCoord.Size = new System.Drawing.Size(75, 23);
-            this.guardarCoord.TabIndex = 5;
-            this.guardarCoord.Text = "Guardar";
-            this.guardarCoord.UseVisualStyleBackColor = true;
-            this.guardarCoord.Click += new System.EventHandler(this.guardarCoord_Click);
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            this.panel2.Location = new System.Drawing.Point(295, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(75, 7);
+            this.panel2.TabIndex = 8;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            this.panel4.Location = new System.Drawing.Point(407, 45);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(105, 5);
+            this.panel4.TabIndex = 10;
+            // 
+            // btnProveedores
+            // 
+            this.btnProveedores.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(90)))));
+            this.btnProveedores.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnProveedores.FlatAppearance.BorderSize = 0;
+            this.btnProveedores.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            this.btnProveedores.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            this.btnProveedores.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnProveedores.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnProveedores.ForeColor = System.Drawing.SystemColors.Window;
+            this.btnProveedores.Location = new System.Drawing.Point(407, 0);
+            this.btnProveedores.Name = "btnProveedores";
+            this.btnProveedores.Size = new System.Drawing.Size(105, 50);
+            this.btnProveedores.TabIndex = 9;
+            this.btnProveedores.Text = "Proveedores";
+            this.btnProveedores.UseVisualStyleBackColor = false;
+            this.btnProveedores.Click += new System.EventHandler(this.btnProveedores_Click);
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            this.panel1.Controls.Add(this.panel7);
+            this.panel1.Location = new System.Drawing.Point(295, 45);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(75, 5);
+            this.panel1.TabIndex = 7;
+            // 
+            // panel7
+            // 
+            this.panel7.Location = new System.Drawing.Point(0, 3);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(75, 104);
+            this.panel7.TabIndex = 7;
+            // 
+            // btnCliente
+            // 
+            this.btnCliente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(90)))));
+            this.btnCliente.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCliente.FlatAppearance.BorderSize = 0;
+            this.btnCliente.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            this.btnCliente.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            this.btnCliente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCliente.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCliente.ForeColor = System.Drawing.SystemColors.Window;
+            this.btnCliente.Location = new System.Drawing.Point(295, 0);
+            this.btnCliente.Name = "btnCliente";
+            this.btnCliente.Size = new System.Drawing.Size(75, 50);
+            this.btnCliente.TabIndex = 0;
+            this.btnCliente.Text = "Clientes";
+            this.btnCliente.UseVisualStyleBackColor = false;
+            this.btnCliente.Click += new System.EventHandler(this.btnCliente_Click);
+            // 
+            // panelContenedor
+            // 
+            this.panelContenedor.Location = new System.Drawing.Point(42, 78);
+            this.panelContenedor.Name = "panelContenedor";
+            this.panelContenedor.Size = new System.Drawing.Size(889, 639);
+            this.panelContenedor.TabIndex = 7;
             // 
             // Form1
             // 
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
             this.ClientSize = new System.Drawing.Size(976, 729);
-            this.Controls.Add(this.guardarCoord);
-            this.Controls.Add(this.btnBuscar);
-            this.Controls.Add(this.txtDireccion);
-            this.Controls.Add(this.txtID);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.gMapControl1);
+            this.Controls.Add(this.panelContenedor);
+            this.Controls.Add(this.menuHorizontal);
             this.Name = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load_1);
+            this.Text = "Sistema de administracion";
+            this.menuHorizontal.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private GMap.NET.WindowsForms.GMapControl gMapControl1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtID;
-        private System.Windows.Forms.TextBox txtDireccion;
-        private System.Windows.Forms.Button btnBuscar;
-        private System.Windows.Forms.Button guardarCoord;
+        private System.Windows.Forms.Panel menuHorizontal;
+        private System.Windows.Forms.Button btnCliente;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Button btnEmpleados;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Button btnProveedores;
+        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.Panel panelContenedor;
     }
 }
 
