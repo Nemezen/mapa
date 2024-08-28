@@ -142,11 +142,11 @@ namespace sistema_coord
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(367, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(152, 42);
+            this.label1.Size = new System.Drawing.Size(143, 39);
             this.label1.TabIndex = 7;
             this.label1.Text = "Clientes";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -154,11 +154,11 @@ namespace sistema_coord
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(440, 412);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(66, 21);
+            this.label2.Size = new System.Drawing.Size(58, 20);
             this.label2.TabIndex = 8;
             this.label2.Text = "Latitud";
             // 
@@ -183,11 +183,11 @@ namespace sistema_coord
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(440, 451);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(79, 21);
+            this.label3.Size = new System.Drawing.Size(71, 20);
             this.label3.TabIndex = 10;
             this.label3.Text = "Longitud";
             // 
@@ -198,7 +198,7 @@ namespace sistema_coord
             this.btnGuardar.FlatAppearance.BorderSize = 4;
             this.btnGuardar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(90)))));
             this.btnGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnGuardar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGuardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGuardar.ForeColor = System.Drawing.Color.White;
             this.btnGuardar.Location = new System.Drawing.Point(160, 359);
             this.btnGuardar.Name = "btnGuardar";

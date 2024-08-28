@@ -1,13 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Windows.Forms;
-using GMap.NET;
+﻿using GMap.NET;
 using GMap.NET.MapProviders;
 using GMap.NET.WindowsForms;
 using GMap.NET.WindowsForms.Markers;
 using sistema_coord.DB;
 using sistema_coord.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Windows.Forms;
 
 namespace sistema_coord
 {
@@ -66,7 +66,7 @@ namespace sistema_coord
 
             // Centrar el mapa en las coordenadas del marcador
             gMapControl1.Position = new PointLatLng(latitud, longitud);
-            MostrarEnMapa(latitud,longitud);
+            MostrarEnMapa(latitud, longitud);
         }
 
         private void EliminarProveedorSeleccionado()
@@ -266,7 +266,7 @@ namespace sistema_coord
             if (!editar)
                 try
                 {
-                    GuardarTodo(txtNombre.Text, txtDireccion.Text, txtColonia.Text, Double.Parse(txtLatitud.Text), Double.Parse(txtLongitud.Text),dateTimePicker1);
+                    GuardarTodo(txtNombre.Text, txtDireccion.Text, txtColonia.Text, Double.Parse(txtLatitud.Text), Double.Parse(txtLongitud.Text), dateTimePicker1);
                     limpiarForm();
                 }
                 catch (Exception ex)

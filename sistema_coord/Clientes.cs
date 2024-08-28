@@ -1,13 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Windows.Forms;
-using GMap.NET;
+﻿using GMap.NET;
 using GMap.NET.MapProviders;
 using GMap.NET.WindowsForms;
 using GMap.NET.WindowsForms.Markers;
 using sistema_coord.DB;
 using sistema_coord.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Windows.Forms;
 
 namespace sistema_coord
 {
@@ -66,7 +66,7 @@ namespace sistema_coord
 
             // Centrar el mapa en las coordenadas del marcador
             gMapControl1.Position = new PointLatLng(latitud, longitud);
-            MostrarEnMapa(latitud,longitud);
+            MostrarEnMapa(latitud, longitud);
         }
 
         private void EliminarClienteSeleccionado()
@@ -339,8 +339,8 @@ namespace sistema_coord
         }
 
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
-        { 
-        
+        {
+
             // Verificar si el clic fue en una fila y no en los encabezados
             if (e.RowIndex >= 0)
             {
@@ -351,7 +351,7 @@ namespace sistema_coord
                 MostrarMarcador(latitud, longitud);
             }
 
-            
+
         }
         private void MostrarEnMapa(double? latitud, double? longitud)
         {

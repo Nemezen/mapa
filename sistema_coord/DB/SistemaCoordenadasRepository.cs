@@ -1,16 +1,16 @@
-﻿using System;
+﻿using sistema_coord.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using sistema_coord.Models;
 
 namespace sistema_coord.DB
 {
     public class SistemaCoordenadasRepository
     {
         private readonly SistemaCoordenadasEntities dbContext;
-
         public SistemaCoordenadasRepository()
         {
+            Console.WriteLine(dbContext);
             dbContext = new SistemaCoordenadasEntities();
         }
 
@@ -167,6 +167,6 @@ namespace sistema_coord.DB
         #endregion
 
 
-    
+
     }
 }

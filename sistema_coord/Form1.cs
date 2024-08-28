@@ -1,7 +1,4 @@
-﻿using GMap.NET.WindowsForms.Markers;
-using sistema_coord.DB;
-using System;
-using System.Linq;
+﻿using System;
 using System.Windows.Forms;
 
 namespace sistema_coord
@@ -13,7 +10,7 @@ namespace sistema_coord
             InitializeComponent();
         }
 
-        
+
 
         private void abrirFormHija(object formhija)
         {
